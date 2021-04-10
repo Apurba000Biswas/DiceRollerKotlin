@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:orientation="vertical"
+    tools:context=".LessonTwoActivity">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:hint="please enter your name"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:text="Done"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/dice_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+
+    <TextView
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="bold|italic"
+        android:visibility="gone"
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:textSize="18sp"
+                android:lineSpacingMultiplier="1.2"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="I am Apurba Biswas \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Phasellus vestibulum lorem sed risus ultricies. Aliquet nec ullamcorper sit amet. Sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra. Sed lectus vestibulum mattis ullamcorper velit sed. Nibh venenatis cras sed felis eget velit aliquet sagittis id. Sit amet mauris commodo quis. Nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Vel eros donec ac odio tempor orci dapibus ultrices in. Eget lorem dolor sed viverra ipsum nunc. Ut tristique et egestas quis ipsum suspendisse ultrices gravida dictum. Nibh venenatis cras sed felis eget. Eget gravida cum sociis natoque penatibus et magnis dis parturient. Viverra mauris in aliquam sem fringilla ut morbi. Lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Amet aliquam id diam maecenas ultricies mi eget mauris. Augue neque gravida in fermentum et sollicitudin. Imperdiet proin fermentum leo vel orci porta non. Ultrices vitae auctor eu augue ut lectus arcu bibendum at.
+
+Amet mattis vulputate enim nulla aliquet porttitor lacus. Id venenatis a condimentum vitae sapien. Ullamcorper eget nulla facilisi etiam dignissim diam quis enim. Mattis molestie a iaculis at erat. Cum sociis natoque penatibus et magnis dis parturient montes. Dui faucibus in ornare quam. Dis parturient montes nascetur ridiculus mus. Bibendum enim facilisis gravida neque. Diam donec adipiscing tristique risus nec feugiat in. Volutpat sed cras ornare arcu dui. Nisl purus in mollis nunc sed id. Sit amet nisl purus in mollis nunc sed id. Velit scelerisque in dictum non consectetur. Faucibus purus in massa tempor nec feugiat nisl pretium fusce. Turpis cursus in hac habitasse platea.
+
+Magna fringilla urna porttitor rhoncus dolor purus non enim. Orci dapibus ultrices in iaculis nunc sed. Lobortis elementum nibh tellus molestie nunc. Felis donec et odio pellentesque. Egestas pretium aenean pharetra magna ac placerat vestibulum. Purus non enim praesent elementum facilisis leo vel fringilla. Urna cursus eget nunc scelerisque viverra. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing. Non enim praesent elementum facilisis leo vel. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet. Augue ut lectus arcu bibendum at. Ipsum suspendisse ultrices gravida dictum fusce. Id ornare arcu odio ut sem nulla.
+
+Sed faucibus turpis in eu mi bibendum neque egestas congue. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec. Neque viverra justo nec ultrices dui sapien eget. Erat velit scelerisque in dictum. A condimentum vitae sapien pellentesque habitant morbi tristique senectus et. Varius morbi enim nunc faucibus. Ac felis donec et odio pellentesque. Purus semper eget duis at tellus at urna. Donec enim diam vulputate ut pharetra. Tortor condimentum lacinia quis vel. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. Neque aliquam vestibulum morbi blandit cursus. Consequat mauris nunc congue nisi vitae suscipit. Natoque penatibus et magnis dis parturient montes. Auctor augue mauris augue neque gravida in fermentum et sollicitudin. Congue eu consequat ac felis donec et. A arcu cursus vitae congue mauris.
+
+Ut tristique et egestas quis ipsum suspendisse ultrices gravida. Vitae turpis massa sed elementum tempus egestas sed sed risus. Morbi tincidunt augue interdum velit euismod. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Velit scelerisque in dictum non consectetur a erat nam. Porttitor lacus luctus accumsan tortor posuere ac ut. Cras sed felis eget velit. Et pharetra pharetra massa massa ultricies. Et leo duis ut diam quam nulla porttitor massa. Fermentum dui faucibus in ornare quam viverra orci."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+
+</layout>

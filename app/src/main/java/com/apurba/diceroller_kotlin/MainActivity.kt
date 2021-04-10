@@ -1,12 +1,10 @@
 package com.apurba.diceroller_kotlin
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import android.widget.ImageView
-import android.widget.TextView
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
@@ -23,6 +21,13 @@ class MainActivity : AppCompatActivity() {
         rollButton.text = "Let's Roll"
         rollButton.setOnClickListener {
             rollDice()
+        }
+
+        val lessonTwoButton : Button = findViewById(R.id.button_lesson_2)
+        lessonTwoButton.text = "Lest go to lesson 2"
+        lessonTwoButton.setOnClickListener{
+            val intent = Intent(this, LessonTwoActivity::class.java)
+            startActivity(intent)
         }
 
         ivRollDice = findViewById(R.id.iv_dice_roll)
