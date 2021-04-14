@@ -7,5 +7,4 @@ This application contain two screen.
 
 
 2. Second screen focus on the DataBinding syntax.
-
 ![](https://github.com/Apurba000Biswas/DiceRollerKotlin/blob/main/screen_shots/Screenshot%20from%202021-04-13%2023-23-36.png)
